@@ -17,6 +17,13 @@ footer {
   margin-top: 1em;
 }
 
+header,
+nav,
+section,
+footer {
+  margin-left: 1em;
+}
+
 section {
   width: 495px;
   margin-bottom: 0.5em;
@@ -29,7 +36,7 @@ aside {
 }
 
 aside {
-  width: calc(960px - 495px - 1em);
+  width: calc(960px - 495px - 2em);
   margin-bottom: 1em;
   margin-left: 1em;
   padding-bottom: 225px;
