@@ -39,6 +39,8 @@ article {
   color: #ebebeb;
   background: #777;
   padding: 1em 1em;
+  width: calc(495px - 4em);
+  margin-left: 1em;
 }
 
 h1,
