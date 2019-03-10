@@ -68,7 +68,5 @@ section {
 }
 
 footer {
-  content: "";
-  display: block;
-  clear: both;
+  clear: left;
 }
