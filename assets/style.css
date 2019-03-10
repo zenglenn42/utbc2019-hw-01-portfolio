@@ -26,7 +26,7 @@ footer {
 
 section {
   width: 495px;
-  margin-bottom: 0.5em;
+  margin-bottom: 1em;
   padding-bottom: 1.5em;
 }
 
@@ -39,7 +39,7 @@ aside {
   width: calc(960px - 495px - 2em);
   margin-bottom: 1em;
   margin-left: 1em;
-  padding-bottom: 225px;
+  padding-bottom: 243px;
 }
 
 article {
@@ -48,6 +48,7 @@ article {
   padding: 1em 1em;
   width: calc(495px - 4em);
   margin-left: 1em;
+  margin-top: 1em;
 }
 
 h1,
