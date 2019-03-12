@@ -33,6 +33,10 @@ p {
   padding: inherit;
 }
 
+aside p {
+  margin-top: 1.5em;
+}
+
 h1 {
   font-size: 1.5rem;
   font-weight: bold;
