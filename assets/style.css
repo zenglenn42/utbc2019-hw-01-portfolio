@@ -42,3 +42,16 @@ h1 {
   font-weight: bold;
   margin-top: 1em;
 }
+
+@media screen and (max-width: 48em) {
+  aside {
+    background-clip: border-box;
+    margin-top: 1em;
+    padding-left: 0em;
+  }
+
+  aside p {
+    margin-left: 0em;
+    padding-left: 0em;
+  }
+}
