@@ -13,6 +13,10 @@ footer {
   padding: 1.5em 0;
 }
 
+aside {
+  background-clip: content-box;
+}
+
 .col-center-text {
   text-align: center;
 }
