@@ -33,3 +33,11 @@ Interestingly, my initial bootstrap rollout regressed on desktop viewports to so
 column gutters in the main content area between the 'section' and 'aside' elements:
 
 ![alt tag](assets/missing-col-gutter.png)
+
+I wrestled that issue into submission [here](https://github.com/zenglenn42/utbc2019-hw-01-wireframe/issues/1) by background clipping to the content-box of the aside element and adjusting the vertical and right padding accordingly.
+
+That seemed a bit anit-pattern for bootstrap, so I simply tried expressing the 'section' and 'aside' elements as col-md-6 and col-md-5 respectively.  That was responsive, but yielded an overly generous gutter on tablet and desktop form-factors:
+
+![alt tag](assets/bootstrap-canonical.png)
+
+In the end, I opted for my more exotic fix with content-clipping since it was the most visually pleasing.  If I had a full SCSS build environment, I might be able to horse-whisper the default bootstrap gutter margins more expertly.
