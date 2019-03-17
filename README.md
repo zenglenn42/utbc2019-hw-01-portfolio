@@ -19,7 +19,7 @@ The hosted solutions resides [here](https://zenglenn42.github.io/utbc2019-hw-01-
 You'll notice on the master branch that the design is not responsive since the body and sections widths are
 hard-coded to 960px and 495px respectively, per the problem specification.
 
-However, today, it's all about being responsive and so I crafted a design in the:
+However, today, it's all about being responsive and so I crafted a design in the branch:
 
    bootstrap-grid-layout
 
@@ -28,3 +28,8 @@ that morphs gracefully to a variety of viewport geometries.
 So on phone-sized viewports, you see something like this:
 
 ![alt tag](assets/mobile-responsive.png)
+
+Interestingly, my initial bootstrap rollout regressed on desktop viewports to something that lacked
+column gutters:
+
+![alt tag](assets/missing-col-gutter.png)
