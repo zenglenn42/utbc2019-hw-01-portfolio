@@ -21,7 +21,9 @@ hard-coded to 960px and 495px respectively, per the problem specification.
 
 However, today, it's all about being responsive and so I crafted a design in the branch:
 
+```
    bootstrap-grid-layout
+```
 
 that morphs gracefully to a variety of viewport geometries.
 
