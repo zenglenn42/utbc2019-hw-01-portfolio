@@ -30,6 +30,6 @@ So on phone-sized viewports, you see something like this:
 ![alt tag](assets/mobile-responsive.png)
 
 Interestingly, my initial bootstrap rollout regressed on desktop viewports to something that lacked
-column gutters:
+column gutters in the main content area between the 'section' and 'aside' elements:
 
 ![alt tag](assets/missing-col-gutter.png)
